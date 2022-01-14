@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["**/*.ts", "../../libs/corelib/src/lib/dynamic-loader.service.ts"],
+  "compilerOptions": {
+    "types": ["jest", "node"]
+  }
+}
